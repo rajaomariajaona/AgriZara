@@ -1,5 +1,20 @@
 :root {
     --main-bg-color: #97BF0D;
+    --details-color: black;
 }
 
-.details-
+
+.details-card-inverse{
+    text-align: right;
+}
+.details-card-side img{
+    max-height: 100%;
+}
+@media screen and (max-width: 768px){
+    .details-card h1{
+        text-align: center;
+    }
+    .details-card p{
+        text-align: center;
+    }
+}
