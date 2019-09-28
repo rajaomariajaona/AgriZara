@@ -10,6 +10,13 @@
 .details-card-side img{
     max-height: 100%;
 }
+.map-region path:hover{
+    fill: #97BF0D;
+}
+#madagascar-map{
+    max-height: 80vh;
+    width: auto;
+}
 @media screen and (max-width: 768px){
     .details-card h1{
         text-align: center;
