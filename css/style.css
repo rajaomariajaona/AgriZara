@@ -13,6 +13,9 @@
 .map-region path:hover{
     fill: #97BF0D;
 }
+.map-region.active path{
+    fill: #97BF0D;
+}
 #madagascar-map{
     max-height: 80vh;
     width: auto;
